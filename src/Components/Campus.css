@@ -1,0 +1,49 @@
+.campuses{
+    position:absolute;
+    bottom:-156%;
+    text-align: center;
+    color: #212e21;
+    font-weight:650;
+    text-transform:uppercase;
+    margin-left:570px;
+}
+
+.campuses h2{
+    color:#03133e;
+    font-size:33px;
+    text-transform:none;
+    margin-top:5px;
+}
+
+.campuses p{
+    color:#1673a2;
+    font-size: 15px;
+}
+
+.campus{
+    margin:80px auto;
+    width:90%;
+    text-align: center;
+}
+
+.gallery{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.gallery img{
+    width:24%;
+    border-radius: 10px;
+}
+
+@media (max-width:805px){
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery img{
+        width: 48%;
+        margin-bottom: 25px;
+    }
+}
